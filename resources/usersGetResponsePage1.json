@@ -1,0 +1,54 @@
+{
+    "totalResults": 1,
+    "startIndex": 1,
+    "itemsPerPage": 50,
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+    ],
+    "Resources": [
+        {
+            "emails": [
+                {
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "displayName": "2192",
+            "meta": {
+                "created": "2023-03-08T14:57:16.634-06:00",
+                "location": "http://10.0.0.33:3000/Users/0a0000fa86c310618186c303925a02fb",
+                "lastModified": "2023-03-08T14:57:16.635-06:00",
+                "version": "W/\"1678309036635\"",
+                "resourceType": "User"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:peppl:2.0:User"
+            ],
+            "name": {
+                "formatted": "2192",
+                "familyName": "Jensen",
+                "givenName": "Barbara",
+                "middleName": "Jane",
+                "honorificPrefix": "Ms.",
+                "honorificSuffix": "III"
+            },
+            "active": true,
+            "id": "0a0000fa86c310618186c303925a02fb",
+            "userName": "2192",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "manager": {}
+            },
+            "urn:ietf:params:scim:schemas:extension:peppl:2.0:User": {
+                "databaseAuthorizationId":"01",
+                "transactionAuthorizationId":"03",
+                "securityAdministratorIndicator": "N",
+                "dualVerificationIndicator": "N",
+                "inclusiveTransCode": "Y",
+                "exclusiveTransCode": "N"    
+            }
+        }
+       
+   ]
+}
